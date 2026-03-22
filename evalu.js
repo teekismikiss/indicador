@@ -31,10 +31,6 @@
     }
 
     function construirResumen() {
-      const espanol = textoNota(getRatingValue("genEspanol"));
-      const asturiano = textoNota(getRatingValue("genAsturiano"));
-      const catalan = textoNota(getRatingValue("genCatalan"));
-      const vasco = textoNota(getRatingValue("genVasco") || getRatingValue("paxGreeting"));
       const frances = textoNota(getRatingValue("genFrances"));
       const ingles = textoNota(getRatingValue("genIngles"));
       const aleman = textoNota(getRatingValue("genAleman"));
