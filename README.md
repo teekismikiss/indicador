@@ -10,13 +10,14 @@ La app está hecha solo con **HTML, CSS y JavaScript**, sin frameworks, y está 
 
 ---
  indicador-idiomas
-├── index.html # Página principal (HTML + PWA: manifest)
-├── style.css # Estilos visuales y diseño responsive
-├── evalu.js # Lógica de ratings y resumen
-├── sw.js # Service worker para caché/offline
-├── manifest.json # Manifiesto de la PWA
-└── icons/ # Iconos 192px y 512px para la app instalable
-
+```markdown
+- `index.html` – Página principal (HTML + PWA: manifest).
+- `style.css` – Estilos visuales y diseño responsive.
+- `evalu.js` – Lógica de ratings y resumen.
+- `sw.js` – Service worker para caché/offline.
+- `manifest.json` – Manifiesto de la PWA.
+- `icons/` – Iconos 192px y 512px para la app instalable.
+```
 ##  Funcionalidad clave
 - `renderRatings()`: genera dinámicamente los radios del 1 al 5 para cada idioma.
 - `getRatingValue()`: recupera el valor seleccionado.
