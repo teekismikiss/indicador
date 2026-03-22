@@ -1,0 +1,2 @@
+# indicador
+un indicador de nivel de idiomas mediante un sistema de puntuación del 1 al 5.
